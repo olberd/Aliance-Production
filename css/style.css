@@ -1,0 +1,13 @@
+* {
+    box-sizing:  border-box;
+}
+.navbar {
+    display: flex;
+    align-items:  center;
+}
+.header-nav {
+    flex-basis: 100%;
+    display:  flex;
+    list-style: none;
+    padding: 0 50px;
+}
