@@ -118,7 +118,7 @@ body {
   height: 2px;
   position: absolute;
   bottom: -1px;
-  background-color: #5C8EE5;
+  background-color: #5c8ee5;
   /* transform: scaleX(0); */
   transition: width 0.2s;
 }
@@ -248,7 +248,7 @@ body {
 
 .section {
   margin-top: 9.375rem;
-  margin-bottom: 9.375rem;
+  /* margin-bottom: 9.375rem; */
 }
 
 .section-title {
@@ -358,10 +358,10 @@ body {
   transition: border 0.2s;
 }
 .card:hover .card-title {
-  color: #5C8EE5;
+  color: #5c8ee5;
 }
 .card:hover {
-  border-color: #5C8EE5;
+  border-color: #5c8ee5;
 }
 .card-content {
   padding: 2.5rem 3.125rem;
@@ -407,7 +407,7 @@ body {
     padding: 2rem;
   }
   .logo-svg {
-    min-width: 6rem;
+    max-width: 10rem;
   }
   .header-nav {
     padding-left: 1rem;
@@ -434,7 +434,7 @@ body {
   }
   .navbar-button {
     padding-left: 2.3rem;
-    padding-right: 2.2rem;
+    padding-right: 2.3rem;
   }
   .header-nav {
     padding-left: 0.5rem;
@@ -473,7 +473,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem 1.5rem;
+    padding: 2.2rem 2.4rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
 
@@ -495,6 +495,9 @@ body {
   .navbar-button .button-icon {
     display: block;
     fill: #fff;
+  }
+  .navbar-button {
+    padding-left: 2.1rem;
   }
   .mobile-menu {
     position: fixed;
@@ -544,7 +547,7 @@ body {
     display: block;
     font-size: 20px;
     font-weight: 600;
-    line-height: 160%; /* 32px */
+    line-height: 160%;
     text-decoration-line: underline;
     color: #292d33;
     border-top: 1px solid #ebebf0;
@@ -595,13 +598,69 @@ body {
   .container {
     max-width: 90%;
   }
-  .header-title {
-    font-size: 2rem;
+  .navbar {
+    height: 5.7rem;
   }
   .header-content {
-    padding-top: 2rem;
+    padding-top: 4rem;
   }
+  .header-title {
+    font-size: 4rem;
+    margin-bottom: 2.1rem;
+  }
+  .header-text {
+    font-size: 14px;
+    margin-bottom: 2.5rem;
+  }
+  .header-button {
+    font-size: 14px;
+    padding: 1.5rem 6.75rem;
+  }
+
   .card {
     flex-basis: 100%;
   }
+  .separator {
+    margin-top: 0;
+    width: 8rem;
+  }
+  .section {
+    margin-top: 8.34rem;
+  }
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 1.29rem;
+  }
+  .section-light {
+    margin-left: -4px;
+  }
+  .steps {
+    gap: 8.75rem;
+  }
+  .steps-item {
+    max-width: 18.75rem;
+  }
+  .steps-num {
+    font-size: 4rem;
+  }
+  .steps-title {
+    margin-top: 0.899rem;
+  }
+  .steps-text {
+    font-size: 1.1rem;
+  }
+  .steps-link {
+    margin-top: -3.5rem;
+    font-size: 1.2rem;
+  }
+  .steps-buttons {
+    margin-top: 19px;
+  }
+  .cards {
+    margin-top: 32px;
+  }
+  .card-content {
+    padding: 1.5rem 2.125rem;
+}
+
 }
