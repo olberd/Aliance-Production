@@ -43,12 +43,28 @@ body {
 .navbar-light {
     background-color: #fff;
     color: #292d33;
-    height: 4.5rem;
     border-bottom: none;
+    /*height: 4.5rem;*/
+}
+
+.navbar-light .logo-light {
+    display: none;
+}
+
+.navbar-light .logo-dark {
+    display: block;
+}
+
+.navbar-scroll {
+    height: 4.5rem;
 }
 
 .phone-icon {
     fill: #5c8ee6;
+}
+
+.logo-dark {
+    display: none;
 }
 
 .navbar-light .header-logo-path {
@@ -975,13 +991,85 @@ body {
 
 
 .modal-form-footer {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .modal-form-button {
     width: 100%;
     display: block;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.header-about {
+    margin-top: 5.875rem;
+    padding-top: 5.875rem;
+}
+
+.header-background-image {
+    background-image: url("../img/header-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+}
+
+.header-background-image::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(41, 45, 51, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+}
+
+.header-title-light {
+    color: #fff;
+}
+
+.header-breadcrumb {
+    display: flex;
+    align-items: center;
+    padding-top: 1.25rem;
+    padding-bottom: 3.125rem;
+    padding-left: 0;
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 160%;
+}
+
+.header-breadcrumb-link {
+    text-decoration: none;
+    color: #828a99;
+}
+
+.header-breadcrumb-item:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    align-items: center;
+    margin: 4px 10px;
+    width: 0.875rem;
+    height: 1px;
+    background: #828a99;
+}
+
+.header-breadcrumb-item {
+    color: #292d33;
+}
+
+.header-breadcrumb-link-light,
+.header-breadcrumb-item-active-light {
+    color: #fff;
 }
 
 @media (max-width: 1700px) {
@@ -993,7 +1081,6 @@ body {
         background-position: center;
     }
 }
-
 @media (max-width: 1480px) {
     html {
         font-size: 13px;
