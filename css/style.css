@@ -690,6 +690,7 @@ body {
     position: relative;
     height: 4.125rem;
     flex-grow: 1;
+    background-color: #F0F2F5;
 
 }
 
@@ -711,7 +712,7 @@ body {
     top: 1.5rem;
     left: 1.975rem;
     color: #828A99;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
 
@@ -728,7 +729,8 @@ body {
     top: -0.5rem;
     left: 1.25rem;
     font-size: 10px;
-    background-color: inherit;
+    background: inherit;
+    /*background-color: #F0F2F5;*/
     transition: top 0.2s, left 0.2s, font-size 0.2s;
     padding: 0 10px;
 }
@@ -922,7 +924,7 @@ body {
 }
 
 .modal-close {
-    display: block;
+    /*display: block;*/
     position: absolute;
     top: 2.5rem;
     right: 3.125rem;
@@ -970,6 +972,7 @@ body {
 .modal-input-group {
     background-color: #fff;
 }
+
 
 .modal-form-footer {
     margin-top: 30px;
