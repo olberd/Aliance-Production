@@ -156,6 +156,7 @@
     <div class="header-content">
       <div class="separator"></div>
       <h1 class="header-title">
+      <?php echo " Главная страница Golive"; ?>
         Комплексное обеспечение товарами и расходными материалами бизнеса
       </h1>
       <p class="header-text">
@@ -738,7 +739,7 @@
     <div class="footer-wrapper">
       <div class="footer-legal">
         <p class="footer-copyright">
-          © 2022 «Aliance Production». Все права защищены.
+          © <?php echo date("Y")?> «Aliance Production». Все права защищены.
         </p>
         <a href="#" class="footer-policy">Политики конфиденциальности</a>
       </div>
