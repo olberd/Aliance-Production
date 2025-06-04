@@ -157,7 +157,7 @@
             поможем даже
             в самых сложных случаях!
         </p>
-        <form action="handler.php" class="modal-form">
+        <form action="handler.php" method="POST" class="modal-form">
             <div class="input-group-wrapper input-group-vertical">
                 <div class="input-group modal-input-group">
                     <input
