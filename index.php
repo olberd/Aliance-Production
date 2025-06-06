@@ -143,7 +143,7 @@
         >+7 (499) 686-10-14</a
         >
     </div>
-    <button class="navbar-button button" data-toggle="modal">
+    <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
         <svg class="button-icon" width="24px" height="24px">
             <use href="img/sprite.svg#phone"></use>
         </svg>
@@ -165,7 +165,7 @@
                 будущего проекта напрямую зависит от анализа существующих паттернов
                 поведения.
             </p>
-            <div class="button header-button">Подробнее о компании</div>
+            <button class="button header-button" data-toggle=modal data-target="#feedback-modal">Подробнее о компании</button>
         </div>
 
         <!-- Slider main container -->

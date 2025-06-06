@@ -144,10 +144,10 @@
     </div>
 </footer>
 
-<div class="modal">
+<div class="modal" id="feedback-modal">
     <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="" class="modal-close" data-toggle="modal">
+        <a href="" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
             <svg class="close-icon" width="24" height="24">
                 <use href="img/sprite.svg#close"></use>
             </svg>
@@ -192,10 +192,10 @@
     </div>
 </div>
 
-<div class="modal thanks">
+<div class="modal" id="alert-modal">
     <div class="modal-dialog">
         <img src="img/thanks_illu.png" alt="thanks">
-        <a href="" class="modal-close" data-toggle="modal">
+        <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">
             <svg class="close-icon" width="24" height="24">
                 <use href="img/sprite.svg#close"></use>
             </svg>
