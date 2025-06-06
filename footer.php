@@ -19,7 +19,7 @@
                         <label class="input-group-label" for="user-name">Имя</label>
                     </div>
                     <div class="input-group">
-                        <input id="user-phone" type="tel" name="user-phone" class="input" placeholder=" ">
+                        <input id="user-phone" type="tel" name="user-phone" class="input phone-mask" placeholder=" ">
                         <label class="input-group-label" for="user-phone">Номер телефона</label>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                     <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
                 </div>
                 <div class="input-group modal-input-group">
-                    <input id="modal-user-phone" type="tel" name="user-phone" class="input modal-input" placeholder=" ">
+                    <input id="modal-user-phone" type="tel" name="user-phone" class="input modal-input phone-mask" placeholder=" ">
                     <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
                 </div>
             </div>
@@ -191,6 +191,26 @@
         </form>
     </div>
 </div>
+
+<div class="modal thanks">
+    <div class="modal-dialog">
+        <img src="img/thanks_illu.png" alt="thanks">
+        <a href="" class="modal-close" data-toggle="modal">
+            <svg class="close-icon" width="24" height="24">
+                <use href="img/sprite.svg#close"></use>
+            </svg>
+        </a>
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <p class="modal-text">
+            Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        <a href="index.php" class="button modal-form-button thanks-button-text">
+            Вернуться на главную
+        </a>
+    </div>
+</div>
+
+<script src="js/just-validate.production.min.js"></script>
 
 </body>
 </html>
